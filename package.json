@@ -46,6 +46,7 @@
   ],
   "sideEffects": false,
   "scripts": {
+    "prepare": "npm run build",
     "dev": "storybook dev -p 6006",
     "build": "rm -fr ./dist ./native && rollup -c",
     "build:docs": "build-storybook -o docs-build",
